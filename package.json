@@ -1,0 +1,31 @@
+{
+  "name": "expanding-menu",
+  "version": "1.0.0",
+  "description": "Expanding menu for portfolio website",
+  "main": "index.js",
+  "dependencies": {
+    "npm-git-install": "^0.3.0",
+    "pug": "^2.0.0-rc.2",
+    "sass": "^0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/ZaBAOW/ZaBAOW.github.io.git"{
+    "type": "git",
+    "url": "\u0016\u0016\u0016\u0016"
+  },
+  "author": "Andrew Kadesky",
+  "license": "ISC"
+}
+
+{
+  "scripts": {
+    "install": "npm-git install"
+  }
+  "gitDependencies": {
+    "package.json": "git@private.git.server:user/ZaBAOW.github.io.git",
+    "package.json": "https://github.com/ZaBAOW/ZaBAOW.github.io.git"
+  }
+}
