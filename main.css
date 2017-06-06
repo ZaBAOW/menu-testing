@@ -36,8 +36,9 @@ label {
 	z-index: 2;
 	cursor: pointer;
 	tap-highlight-color:transparent;
-	
-	&:before {
+}
+
+label:before {
   content: "";
   position: absolute;
   top: 65%;
@@ -50,7 +51,7 @@ label {
     0 0.5em 0 0 white;
 		transform: scale(2);
 }
-}
+
 
 #hamburger:checked ~ .menu-container {
 	width: 30vw;
@@ -71,13 +72,15 @@ label {
 	z-index: 3;
 	transform: translate(-50%, -50%);
 	text-align: center;
-	a {
-		display: block;
-		color: white;
-		font-size: 2rem;
-		text-decoration: none;
-		margin: 3rem;
-	}
+
+}
+
+.menu-container .links	a {
+	display: block;
+	color: white;
+	font-size: 2rem;
+	text-decoration: none;
+	margin: 3rem;
 }
 
 .content {
@@ -85,21 +88,24 @@ label {
 	transition: all .2s;
 	transition-delay: .1s;
 	
-	h1 {
-		font-size: 2rem;
-		color: #212529;
-	}
-	
-	h1:not(.header) {
-		margin-top: 4rem;
-	}
-	
-	p {
-		margin-top: 2rem;
-		color: #495057;
-	}
+
 }
 
+
+.content h1 {
+	font-size: 2rem;
+	color: #212529;
+}
+	
+.content h1:not(.header) {
+	margin-top: 4rem;
+}
+
+.content p {
+	margin-top: 2rem;
+	color: #495057;
+
+}
 #hamburger:checked ~ .content {
 	padding-left: 35vw;
 	transition: all .2s;
